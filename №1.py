@@ -1,5 +1,3 @@
-import init
-
 def choose_coffee(*preference):
     ingredients = [2, 3, 2]
     print(ingredients)
@@ -23,5 +21,3 @@ def choose_coffee(*preference):
             if ingredients[0] >= 1 and ingredients[2] >= 1:
                 return print('Кон Панна')
     return ('К сожалению, не можем предложить Вам напиток')
-
-choose_coffee(coffe_list)
